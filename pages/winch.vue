@@ -1,7 +1,7 @@
 <template>
   <div>
     <UInput size='xl' v-model='host'/>
-    <UButton class='round' size='xl' icon='i-lucide-arrow-up' color='neutral' variant='outline' @touchstart='tap' @touchend='tap'/>
+    <UButton class='round' size='xl' icon='i-lucide-arrow-up' color='neutral' variant='outline' @touchstart='tap' @touchend='tap' @mouseup='tap' @mousedown='tap'/>
   </div>
 </template>
 
