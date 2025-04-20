@@ -1,0 +1,16 @@
+services:
+  web:
+    image: twhtanghk/tomboat
+    ports:
+      - 3000:8080
+    env_file:
+      - ../.env
+
+  signalk:
+   image: signalk/signalk-server
+    init: true
+    network_mode: host
+    volumes:
+      - ../src/.signalk:/home/node/.signalk
+    env_file:
+      - ../.env
