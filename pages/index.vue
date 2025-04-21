@@ -6,7 +6,7 @@
     <UButton to='/winch' target='_blank' variant='outline' size='xl' color='neutral'>
       winch
     </UButton>
-    <UButton to='http://signalk:3000' target='_blank' variant='outline' size='xl' color='neutral'>
+    <UButton to='http://192.168.32.1:3000' target='_blank' variant='outline' size='xl' color='neutral'>
       signalk
     </UButton>
   </UButtonGroup>
