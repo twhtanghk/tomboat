@@ -6,9 +6,11 @@
 </template>
 
 <script setup>
-const host = 'winch.local'
+import {ref} from 'vue'
+
+const host = ref('winch')
 const tap = () => {
-  fetch(`http://${host}/button/toggle/press`, {method: 'POST'})
+  fetch(`http://${host.value}/button/toggle/press`, {method: 'POST'})
     .catch((err) => console.error(err))
 }
 </script>
