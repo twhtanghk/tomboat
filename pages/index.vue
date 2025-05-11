@@ -10,7 +10,7 @@
       ydnr
     </UButton>
     <UButton to='http://autopilot' target='_blank' variant='outline' size='xl' color='neutral'>
-      ydnr
+      autopilot
     </UButton>
   </UButtonGroup>
 </template>
