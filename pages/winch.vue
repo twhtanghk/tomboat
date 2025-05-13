@@ -8,7 +8,7 @@
 <script setup>
 import {ref} from 'vue'
 
-const host = ref('winch')
+const host = ref('winch.local')
 const tap = () => {
   fetch(`http://${host.value}/button/toggle/press`, {method: 'POST'})
     .catch((err) => console.error(err))
