@@ -6,7 +6,7 @@
     <UButton to='/winch' target='_blank' variant='outline' size='xl' color='neutral'>
       winch
     </UButton>
-    <UButton to='http://ydnr.local' target='_blank' variant='outline' size='xl' color='neutral'>
+    <UButton to='http://ydnr' target='_blank' variant='outline' size='xl' color='neutral'>
       ydnr
     </UButton>
     <UButton to='http://autopilot.local' target='_blank' variant='outline' size='xl' color='neutral'>
